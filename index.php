@@ -1,4 +1,23 @@
 <?php 
+//NUMBER 4
+
+/*
+Write function parseFloat which takes an input and returns a number or Nothing if conversion is not possible.
+*/
+
+//MY SOLUTION
+function parseF($s) { 
+  $num = floatval($s); 
+   if (is_numeric($s)) { 
+   return $num;
+    } 
+   else 
+   { 
+   return null; 
+   } 
+  }
+
+
 //NUMBER 3
 
 /*
