@@ -1,5 +1,17 @@
 <?php 
 
+//NUMBER 6
+
+
+/*
+This code should store "codewa.rs" as a variable called name but it's not working. Can you figure out why?
+*/
+
+//MY SOLUTION
+$name = "codewa.rs";
+
+return $name;
+
 //NUMBER 5
 
 /*
