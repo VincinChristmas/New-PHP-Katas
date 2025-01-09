@@ -1,4 +1,35 @@
 <?php 
+//NUMBER 9
+/*
+Your task is to write a function that takes a list of three languages and returns the language the group should use.7 8
+
+Examples:9
+
+The language for a group of three native French speakers is French: FFF → F
+
+A group of two native Italian speakers and a Romansh speaker converses in Romansh: IIK → K
+
+When three people meet whose native languages are German, French, and Romansh, the group language is Italian: DFK → I
+*/
+
+//MY SOLUTION
+function trilingualDemocracy($group) {
+  $languages = ['D', 'F', 'I', 'K'];
+  $group = str_split($group);
+  sort($group);
+  if ($group[0] === $group[1] && $group[0] === $group[2]) {
+      return $group[0];
+  }
+  if ($group[0] === $group[1] && $group[0] !== $group[2]) {
+      return $group[2];
+  }
+  if ($group[1] === $group[2] && $group[0] !== $group[1]) {
+      return $group[0];
+  }
+  $remaining_languages = array_diff($languages, $group);
+  return array_shift($remaining_languages);
+}
+
 //NUMBER 8
 /*You task is to implement an simple interpreter for the notorious esoteric language HQ9+ that will work for a single character input:
 
