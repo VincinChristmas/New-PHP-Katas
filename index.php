@@ -1,4 +1,32 @@
 <?php 
+//NUMBER 11
+
+/*
+You are given a string of letters and an array of numbers.
+The numbers indicate positions of letters that must be removed, in order, starting from the beginning of the array.
+After each removal the size of the string decreases (there is no empty space).
+Return the only letter left.
+
+Example:
+
+let str = "zbk", arr = [0, 1]
+    str = "bk", arr = [1]
+    str = "b", arr = []
+    return 'b'
+*/
+
+//MY SOLUTION
+function lastSurvivor(string $letters, array $coords): string {
+  $preppedLetters = str_split($letters);
+  $newHouse ='';
+  for ($x = 0; $x < count($coords); $x++) {
+     $position = $coords[$x];
+    if (isset($preppedLetters[$position])) {
+      array_splice($preppedLetters, $position, 1);
+    }
+  }
+  return $preppedLetters[0];
+}
 
 //NUMBER 10
 /*
