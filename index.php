@@ -1,4 +1,31 @@
 <?php 
+//NUMBER 15
+
+/*
+Your function takes two arguments:
+
+current father's age (years)
+current age of his son (years)
+Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old). 
+The answer is always greater or equal to 0, no matter if it was in the past or it is in the future.
+*/
+
+//MY SOLUTION
+function twice_as_old($dad_years_old, $son_years_old) {
+  $theRightYears = $son_years_old * 2;
+    $sum = 0;
+    if ($dad_years_old < $theRightYears) {
+      while (($dad_years_old + $sum) != $theRightYears) {
+        $sum ++;
+      }
+    }
+ elseif ($dad_years_old > $theRightYears) {
+   while ($dad_years_old - $sum != $theRightYears ) {
+       $sum++;
+      }    
+ }
+ return $sum;
+}
 //NUMBER 14
 /*
 There are pillars near the road. The distance between the pillars is the same and the width of 
