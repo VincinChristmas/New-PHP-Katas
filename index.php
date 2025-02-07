@@ -1,4 +1,30 @@
 <?php 
+//NUMBER 18
+
+/*
+Numbers ending with zeros are boring.
+
+They might be fun in your world, but not here.
+
+Get rid of them. Only the ending ones.
+
+1450   -> 145
+960000 -> 96
+1050   -> 105
+-1050  -> -105
+0      -> 0
+*/
+
+//MY SOLUTION
+function noBoringZeros($n) {
+  $n = (string)$n;
+    $n = rtrim($n, '0');
+    if ($n === '') {
+          return 0;
+      }
+    return (int)$n;
+  }
+
 //NUMBER 17
 
 /*
