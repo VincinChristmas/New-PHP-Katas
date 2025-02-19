@@ -25,6 +25,16 @@ More details here: https://en.wikipedia.org/wiki/Comma-separated_values
 Note: you shouldn't escape the \n, it should work as a new line.
 */
 
+//MY SOLUTION
+function toCsvText($array) {
+  $sentence = '';
+  foreach ($array as $set) {
+      $sentence .= implode(',', $set) . '\n'; 
+  }
+  $sentence = rtrim($sentence, '\n'); 
+  return $sentence;
+}
+
 
 
 //NUMBER 23
