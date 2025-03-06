@@ -1,4 +1,22 @@
 <?php 
+//NUMBER 32
+
+/*
+Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+
+[1, 2, 3, 4, 5] --> [-1, -2, -3, -4, -5]
+[1, -2, 3, -4, 5] --> [-1, 2, -3, 4, -5]
+[] --> []
+*/
+
+//MY SOLUTION
+function invert(array $a): array {
+  for ($i = 0; $i < count($a); $i++) {
+    $a[$i] = -1 * $a[$i];
+  }
+  return $a;
+}
+
 //NUMBER 31
 
 /*
