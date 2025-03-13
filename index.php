@@ -1,4 +1,20 @@
 <?php 
+
+//NUMBER 33
+
+
+/*
+https://www.codewars.com/kata/582cb0224e56e068d800003c
+*/
+
+
+//MY SOLUTION
+function litres(float $t): int {
+  $water = $t * 0.5;
+  return floor($water);
+}
+
+
 //NUMBER 32
 
 /*
