@@ -1,5 +1,21 @@
 <?php 
 
+//NUMBER 35
+
+/*
+https://www.codewars.com/kata/5875b200d520904a04000003
+*/
+
+//MY SOLUTION
+function enough($cap, $on, $wait) {
+  if (($on + $wait ) <= $cap) {
+    return 0;
+  }
+  else {
+    return (($on + $wait) - $cap);
+  }
+}
+
 //NUMBER 34
 
 /*
