@@ -1,5 +1,23 @@
 <?php 
 
+//NUMBER 36 
+
+/*
+https://www.codewars.com/kata/5601409514fc93442500010b
+*/
+
+//MY SOLUTION
+function betterThanAverage(array $classPoints, int $yourPoints): bool {
+  $sum = array_sum($classPoints);
+  $average = $sum/count($classPoints);
+  if ($average < $yourPoints) {
+    return true;
+  }
+  else {
+    return false;
+  } 
+}
+
 //NUMBER 35
 
 /*
