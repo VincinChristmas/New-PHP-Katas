@@ -1,5 +1,19 @@
 <?php 
 
+//NUMBER 37
+
+/*
+https://www.codewars.com/kata/586c1cf4b98de0399300001d
+*/
+
+//MY SOLUTION
+function combat($health, $damage) {
+  # Good luck
+  $newHealth = $health - $damage;
+  return 
+  $newHealth < 0 ? 0 : $newHealth;
+}
+
 //NUMBER 36 
 
 /*
