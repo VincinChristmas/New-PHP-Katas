@@ -1,5 +1,15 @@
 <?php 
 
+//NUMBER 40
+
+/*
+https://www.codewars.com/kata/5265326f5fda8eb1160004c8
+*/
+
+//MY SOLUTION
+function numberToString(int $num): string {
+  return (string) $num; // your code here
+
 //NUMBER 39
 
 /*
