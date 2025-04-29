@@ -1,5 +1,16 @@
 <?php 
 
+//NUMBER 41
+
+/*
+https://www.codewars.com/kata/5168bb5dfe9a00b126000018
+*/
+
+//MY SOLUTION
+function solution(string $str): string {
+  return strrev($str);
+}
+
 //NUMBER 40
 
 /*
