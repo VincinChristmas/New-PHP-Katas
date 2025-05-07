@@ -1,5 +1,14 @@
 <?php 
 
+//NUMBER 43
+/*
+https://www.codewars.com/kata/56dec885c54a926dcd001095
+*/
+
+//MY SOLUTION 
+function opposite(int $n): int {
+  return -1 * $n; 
+
 //NUMBER 42
 
 /*
