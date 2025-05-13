@@ -1,4 +1,16 @@
-<?php 
+<?php
+
+//NUMBER 44
+
+/*
+https://www.codewars.com/kata/53369039d7ab3ac506000467
+*/
+
+//<Y SOLUTION
+function boolToWord(bool $bool): string{
+  return 
+    $bool === true ? "Yes" : "No";
+}
 
 //NUMBER 43
 /*
