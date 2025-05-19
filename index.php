@@ -1,12 +1,30 @@
 <?php
 
+//NUMBER 45
+
+/*
+https://www.codewars.com/kata/5715eaedb436cf5606000381
+*/
+
+//MY SOLUTION
+function positive_sum($arr) {
+  // Your code here
+  $sum = 0;
+  for ($i = 0; $i < count($arr); $i++) {
+    if ($arr[$i] > 0 ) {
+      $sum+=$arr[$i];
+    }
+  }
+  return $sum;
+}
+
 //NUMBER 44
 
 /*
 https://www.codewars.com/kata/53369039d7ab3ac506000467
 */
 
-//<Y SOLUTION
+//MY SOLUTION
 function boolToWord(bool $bool): string{
   return 
     $bool === true ? "Yes" : "No";
