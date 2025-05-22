@@ -1,5 +1,18 @@
 <?php
 
+
+//NUMBER 47
+/*
+https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0
+*/
+
+//MY SOLUTION
+function remove_char(string $s): string {
+  $newString = substr($s, 1, strlen($s)-2);
+
+  return $newString; 
+}
+
 //NUMBER 46
 /*
 https://www.codewars.com/kata/57a0e5c372292dd76d000d7e
