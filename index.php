@@ -1,5 +1,22 @@
 <?php
 
+//NUMBER 46
+/*
+https://www.codewars.com/kata/57a0e5c372292dd76d000d7e
+*/
+
+
+//MY SOLUTION
+function repeatStr(int $n, string $str): string{
+  $sum = 0;
+  $sentence = '';
+  while ($sum < $n) {
+    $sum += 1;
+    $sentence = $sentence.$str;
+  }
+  return $sentence;
+}
+
 //NUMBER 45
 
 /*
