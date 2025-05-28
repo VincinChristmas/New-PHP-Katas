@@ -1,5 +1,19 @@
 <?php
 
+//NUMBER 48
+
+/*
+https://www.codewars.com/kata/515e271a311df0350d00000f
+*/
+
+//MY SOLUTION
+function square_sum(array $numbers) : int {
+  $sum=0;
+  for ($i=0; $i < count($numbers); $i++) {
+    $sum = $sum + ($numbers[$i] * $numbers[$i]);
+  }
+  return $sum;
+}
 
 //NUMBER 47
 /*
