@@ -1,5 +1,22 @@
 <?php
 
+//NUMBER 49
+
+/*
+https://www.codewars.com/kata/55a2d7ebe362935a210000b2
+*/
+
+//MY SOLUTION
+function smallestInteger ($arr) {
+  $smallest = $arr[0];
+    for ($i = 1; $i < count($arr); $i++) {
+      if($arr[$i] < $smallest) {
+        $smallest = $arr[$i];
+      }
+    }
+  return $smallest;
+}
+
 //NUMBER 48
 
 /*
