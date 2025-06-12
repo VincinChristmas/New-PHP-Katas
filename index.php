@@ -1,5 +1,15 @@
 <?php
 
+//NUMBER 50
+/*
+https://www.codewars.com/kata/544675c6f971f7399a000e79
+*/
+
+
+//MY SOLUTION
+function stringToNumber(string $str): int {
+  return (int)$str;
+
 //NUMBER 49
 
 /*
