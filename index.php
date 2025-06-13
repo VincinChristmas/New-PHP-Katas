@@ -1,5 +1,20 @@
 <?php
 
+
+//NUMBER 51
+/*
+https://www.codewars.com/kata/55d24f55d7dd296eb9000030/train/php
+*/ 
+
+//MY SOLUTION
+function summation(int $n): int {
+  $sum = 0;
+  while ($sum <= $n) {
+    $sum+=1;
+  }
+  return $sum;
+}
+
 //NUMBER 50
 /*
 https://www.codewars.com/kata/544675c6f971f7399a000e79
