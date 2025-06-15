@@ -1,5 +1,15 @@
 <?php
 
+//NUMBER 52
+
+/*
+https://www.codewars.com/kata/523b4ff7adca849afe000035/train/php
+*/
+
+//MY SOLUTION
+function greet(): string {
+  return 'hello world!';
+}
 
 //NUMBER 51
 /*
