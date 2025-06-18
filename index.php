@@ -1,5 +1,23 @@
 <?php
 
+//NUMBER 53
+
+/*
+https://www.codewars.com/kata/57cff961eca260b71900008f/train/php
+*/
+
+//MY SOLUTION
+function isVow(array $a): array{
+  
+  for ($i = 0; $i < count($a); $i++) {
+    if(chr($a[$i]) === 'a' || chr($a[$i]) === 'e' || chr($a[$i]) === 'i' || chr($a[$i]) === 'o' || chr($a[$i]) === 'u') {
+      $a[$i]=== chr($a[$i]);
+    }
+  }
+ return $a;
+}
+
+
 //NUMBER 52
 
 /*
