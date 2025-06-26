@@ -1,5 +1,22 @@
 <?php
 
+//NUMBER 54
+
+/*
+https://www.codewars.com/kata/54edbc7200b811e956000556
+*/
+
+//MY SOLUTION
+function countSheep($arr) {
+  $sum = 0;
+  for ($x=0; $x<count($arr); $x++) {
+    if ($arr[$x] === true) {
+      $sum+=1;
+    }
+  }
+  return $sum;
+}
+
 //NUMBER 53
 
 /*
