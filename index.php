@@ -1,5 +1,16 @@
 <?php
 
+//NUMBER 55
+
+/*
+https://www.codewars.com/kata/563a631f7cbbc236cf0000c2
+*/
+
+//MY SOLUTION
+function move(int $pos, int $roll): int {
+  return 2 * $roll + $pos;
+}
+
 //NUMBER 54
 
 /*
