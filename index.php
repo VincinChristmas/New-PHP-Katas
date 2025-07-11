@@ -1,5 +1,21 @@
 <?php
 
+//NUMBER 57
+
+/*
+https://www.codewars.com/kata/551b4501ac0447318f0009cd
+*/
+
+//MY SOLUTION
+function booleanToString(bool $b): string {
+  if ($b === true) {
+    return 'true';
+  }
+  else if ($b === false) {
+    return 'false';
+  }
+}
+
 //NUMBER 56
 
 /*
