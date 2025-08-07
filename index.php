@@ -1,5 +1,16 @@
 <?php
 
+//NUMBER 59
+
+/*
+https://www.codewars.com/kata/50654ddff44f800200000004
+*/
+
+//MY SOLUTION
+function multiply(int $a, int $b): int {
+  return $a * $b;
+}
+
 //NUMBER 58
 
 /*
