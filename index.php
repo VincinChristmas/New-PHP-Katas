@@ -1,5 +1,35 @@
 <?php
 
+//NUMBER 60
+
+/*
+https://www.codewars.com/kata/57356c55867b9b7a60000bd7
+*/
+
+//MY SOLUTION
+function basicOp($op, $val1, $val2)
+{
+  $realVal = 0;
+  switch ($op) {
+      case $op === '+':
+      $realVal = $val1 + $val2;
+      break;
+      
+      case $op === '-':
+      $realVal = $val1 - $val2;
+      break;
+      
+      case $op === '*':
+      $realVal = $val1 * $val2;
+      break;
+      
+      case $op === '/':
+      $realVal = $val1 / $val2;
+      break;
+  }
+  return $realVal;
+}
+
 //NUMBER 59
 
 /*
