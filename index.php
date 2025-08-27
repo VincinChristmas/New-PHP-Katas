@@ -1,5 +1,20 @@
 <?php
 
+//NUMBER 61
+
+/*
+https://www.codewars.com/kata/53dc54212259ed3d4f00071c
+*/
+
+//MY SOLUTION
+function sum(array $a): float {
+  $sum = 0;
+    for ($i = 0;$i < count($a); $i++) {
+      $sum += $a[$i];
+    }
+  return $sum;
+}
+
 //NUMBER 60
 
 /*
