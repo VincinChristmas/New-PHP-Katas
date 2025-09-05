@@ -1,5 +1,21 @@
 <?php
 
+//NUMBER 62
+
+/*
+https://www.codewars.com/kata/5583090cbe83f4fd8c000051
+*/
+
+//MY SOLUTION
+function digitize(int $n): array{
+  $newN = [];
+    $digits = str_split((string)$n); 
+    for ($i = count($digits) - 1; $i >= 0; $i--) {
+        array_push($newN, intval($digits[$i]));
+    }
+    return $newN;
+}
+
 //NUMBER 61
 
 /*
