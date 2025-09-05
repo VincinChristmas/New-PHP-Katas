@@ -1,5 +1,19 @@
 <?php
 
+//NUMBER 63
+
+/*
+https://www.codewars.com/users/Vincin%20Christmas
+*/
+
+//MY SOLUTION
+function maps(array $arr): array{
+  foreach($arr as &$doubled) {
+    $doubled = $doubled * 2;
+  }
+  return $arr;
+}
+
 //NUMBER 62
 
 /*
