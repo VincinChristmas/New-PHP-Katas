@@ -1,5 +1,16 @@
 <?php
 
+//NUMBER 65
+
+/*
+https://www.codewars.com/kata/5a2cb53cee1aaef2fa000037
+*/
+
+//MY SOLUTION
+const newFunction = function stopIt() {
+  return stopIt;
+}
+
 //NUMBER 64
 
 /*
