@@ -1,5 +1,16 @@
 <?php
 
+//NUMBER 67
+
+/*
+https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7
+*/
+
+//MY SOLUTION
+function makeUpperCase(string $input): string {
+  return strtoupper($input);
+}
+
 //NUMBER 66
 
 /*
