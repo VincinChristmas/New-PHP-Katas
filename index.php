@@ -1,5 +1,20 @@
 <?php
 
+//NUMBER 66
+
+/*
+https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd
+*/
+
+//MY SOLUTION
+function paperwork(int $n, int $m): int
+{
+  if ($n < 0 || $m < 0) {
+    $n = 0 && $m = 0;
+  }
+  return $n  * $m;
+}
+
 //NUMBER 65
 
 /*
