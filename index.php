@@ -1,5 +1,19 @@
 <?php
 
+//NUMBER 68
+
+/*
+https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a
+*/
+
+//MY SOULUTION
+function past($h, $m, $s) {
+  $hourMilli = $h * 3600000;
+  $minuteMilli = $m * 60000;
+  $secondMilli = $s * 1000;
+    
+  return $hourMilli + $minuteMilli + $secondMilli;
+
 //NUMBER 67
 
 /*
