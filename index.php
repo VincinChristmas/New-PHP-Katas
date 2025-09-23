@@ -1,5 +1,28 @@
 <?php
 
+//NUMBER 69
+
+/*
+https://www.codewars.com/users/Vincin%20Christmas/completed_solutions
+*/
+
+//MY SOLUTION
+class Hero {
+    public $name;
+    public $position;
+    public $health;
+    public $damage;
+    public $experience;
+  
+  public function __construct($name = 'Hero') {
+        $this->name = $name;
+        $this->position = '00';
+        $this->health = 100;
+        $this->damage = 5;
+        $this->experience = 0;
+    }
+}
+
 //NUMBER 68
 
 /*
