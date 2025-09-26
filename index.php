@@ -1,5 +1,20 @@
 <?php
 
+//NUMBER 70
+
+/*
+https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3
+*/
+
+//MY SOLUTION
+function abbrevName(string $name): string {
+  $firstInitial = $name[0];
+  $lastNamePosition = strpos($name, " ");
+  $lastInitial = $name[$lastNamePosition + 1];
+  $fullAbbreviation = strtoupper($firstInitial) . '.' . strtoupper($lastInitial);
+  
+  return $fullAbbreviation;
+}
 //NUMBER 69
 
 /*
