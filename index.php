@@ -1,5 +1,23 @@
 <?php
 
+//NUMBER 71
+
+/*
+https://www.codewars.com/kata/56676e8fabd2d1ff3000000c
+*/
+
+//MY SOLUTION
+function findNeedle($haystack) {
+  
+    for ($i=0; $i < count($haystack); $i++) {
+      if ($haystack[$i] === 'needle') {
+        return 'found the needle at position ' . $i;
+      }
+   
+    }
+     return null;
+}
+
 //NUMBER 70
 
 /*
