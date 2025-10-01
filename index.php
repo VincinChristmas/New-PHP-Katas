@@ -1,5 +1,26 @@
 <?php
 
+//NUMBER 72
+
+/*
+https://www.codewars.com/kata/57a2013acf1fa5bfc4000921
+*/
+
+//MY SOLUTION
+function find_average($array): float {
+  $sum = 0;
+  for ($i = 0; $i < count($array); $i++) {
+    $sum += $array[$i];
+  }
+  if ($sum === 0) {
+    return 0;
+  }
+  else {
+    return $sum / count($array);
+  }
+  
+}
+
 //NUMBER 71
 
 /*
