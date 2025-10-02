@@ -1,5 +1,23 @@
 <?php
 
+//NUMBER 73
+
+/*
+https://www.codewars.com/kata/53dc23c68a0c93699800041d
+*/
+
+//MY SOLUTION
+function smash(array $words): string {
+  $theSentence = "";
+  for ($i=0; $i < count($words); $i++) {
+    $theSentence .= $words[$i];
+    if ($i < count($words) - 1) {
+      $theSentence .= " ";
+    }
+  }
+  return $theSentence;
+}
+
 //NUMBER 72
 
 /*
