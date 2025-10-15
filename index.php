@@ -1,5 +1,20 @@
 <?php
 
+//NUMBER 74
+
+/*
+https://www.codewars.com/kata/57f780909f7e8e3183000078
+*/
+
+//MY SOLUTION
+function grow(array $a): int {
+  $mul = 1;
+  for ($i = 0; $i < count($a); $i++) {
+    $mul *= $a[$i];
+  }
+  return $mul;
+}
+
 //NUMBER 73
 
 /*
