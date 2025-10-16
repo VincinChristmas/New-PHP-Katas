@@ -1,5 +1,34 @@
 <?php
 
+//NUMBER 75
+
+/*
+https://www.codewars.com/kata/576bb71bbbcf0951d5000044
+*/
+
+//MY SOLUTION
+function countPositivesSumNegatives($input) {
+    $finalArray = [];
+    $positives = 0;
+    $negatives = 0;
+
+    if (!is_array($input) || count($input) === 0) {
+        return [];
+    }
+
+    for ($i = 0; $i < count($input); $i++) {
+        if ($input[$i] > 0) {
+            $positives += 1;
+        } else if ($input[$i] < 0) {
+            $negatives += $input[$i];
+        }
+    }
+
+    array_push($finalArray, $positives);
+    array_push($finalArray, $negatives);
+    return $finalArray;
+}
+
 //NUMBER 74
 
 /*
