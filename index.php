@@ -1,5 +1,21 @@
 <?php
 
+//NUMBER 76
+
+/*
+https://www.codewars.com/kata/5556282156230d0e5e000089
+*/
+//MY SOLUTION
+function dnaToRna(string $str): string {
+  for ($i=0; $i< strlen($str); $i++) {
+    if ($str[$i] === "T") {
+      $str[$i] = "U";
+    }
+  }
+  return $str;
+}
+
+
 //NUMBER 75
 
 /*
