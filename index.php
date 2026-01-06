@@ -1,5 +1,18 @@
 <?php
 
+//NUMBER 77
+
+/*
+https://www.codewars.com/kata/57e92e91b63b6cbac20001e5
+*/ 
+
+//MY SOLUTION
+function dutyFree(int $n, int $d, int $h): int {
+  // your code here  
+  $savings= $n * ($d/100);
+  return $h / $savings;
+}
+
 //NUMBER 76
 
 /*
