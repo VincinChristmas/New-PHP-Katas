@@ -1,5 +1,21 @@
 <?php
 
+//NUMBER 78
+/*
+
+https://www.codewars.com/kata/57e76bc428d6fbc2d500036d
+*/  
+
+//MY SOLUTION
+function string_to_array($s){
+  $houseArray = [];
+  $words= explode(" ",$s);
+  for ($i=0; $i<count($words); $i++) {
+    array_push($houseArray, $words[$i]);
+  }
+  return $houseArray;
+}
+
 //NUMBER 77
 
 /*
