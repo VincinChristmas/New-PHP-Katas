@@ -1,5 +1,23 @@
 <?php
 
+//NUMBER 79
+/*
+https://www.codewars.com/kata/57cc975ed542d3148f00015b/train/php
+*/
+
+//MY SOLUTION
+function solution(array $a, $x) : bool {
+  
+  if (in_array($x, $a, true)) {
+    return true;
+  }
+  else {
+    return false;
+  }
+  
+}
+
+
 //NUMBER 78
 /*
 
