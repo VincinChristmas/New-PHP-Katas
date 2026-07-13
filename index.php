@@ -1,5 +1,35 @@
 <?php
 
+//NUMBER 81
+/*
+
+*/
+
+//MY SOLUTION 
+
+//NUMBER 80
+
+/*
+https://www.codewars.com/kata/596fba44963025c878000039/train/php
+*/
+
+//MY SOLUTION
+function contamination(string $text, string $char): string {
+  $newText = str_split($text);
+  if ($text === '') {
+    return $text;
+  }
+  else {
+    for ($x=0; $x < count($newText); $x++) {
+    $newText[$x] = $char;
+  }
+    return implode($newText);
+  }
+  
+}
+
+
+
 //NUMBER 79
 /*
 https://www.codewars.com/kata/57cc975ed542d3148f00015b/train/php
